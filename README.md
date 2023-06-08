@@ -1,4 +1,6 @@
 # Libft
+![My libft score](![libft_score](https://github.com/BurcuBulakBozkurt/libft_42/assets/122625978/250ca297-c39c-457e-8081-6daa2cfc0023)
+
 ## About
 This is the first project in School 42. This project is about coding a C library that contains a lot of general purpose functions to be used throughout the course.
 
