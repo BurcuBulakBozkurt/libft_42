@@ -2,7 +2,7 @@
 ## About
 This is the first project in School 42. This project is about coding a C library that contains a lot of general purpose functions to be used throughout the course.
 
-Most of these funcions already exist on standard C libraries and so this project is about understanding the way these functions work, implementing and learning to use them. To add another layer of difficulty the only external functions allowed are: write(), malloc() and free().
+Most of these funcions already exist on standard C libraries. However this project makes us to understand the way these functions work, to implement and to learn how to use them. In addition, 42 schools have strict norm and rules. For example in this project only external functions allowed are: write(), malloc() and free().
 
 For detailed information, please check [the subject of this project][1].
 
