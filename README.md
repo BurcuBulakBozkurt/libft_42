@@ -1,10 +1,8 @@
 # Libft
-
-This is the first project in School 42.
-
 ## About
+This is the first project in School 42. This project is about coding a C library that contains a lot of general purpose functions to be used throughout the course.
 
-"Programming in C can be very tedious when you don't have access to the very useful standard functions.This project gives you the opportunity to rewrite those functions to understand them and learn to use them.The library will help you for your future projects in C. Through this project, you have the opportunity to extend your list of functions in your own way!"
+Most of these funcions already exist on standard C libraries and so this project is about understanding the way these functions work, implementing and learning to use them. To add another layer of difficulty the only external functions allowed are: write(), malloc() and free().
 
 For detailed information, please check [the subject of this project][1].
 
