@@ -33,7 +33,8 @@ all:			${NAME}
 ${NAME}:		${OBJS}
 				ar rcs ${NAME} ${OBJS}
 
-.c.o:			${CC} ${CFLAGS} -c $< -o $@
+.c.o:			
+			${CC} ${CFLAGS} -c $< -o $@
 
 clean:			
 				rm -f ${OBJS} $(BONUS_OBJS)
