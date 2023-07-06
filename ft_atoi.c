@@ -33,7 +33,7 @@ int	ft_atoi(const char *nptr)
 	{
 		result = result * 10 + nptr[i] - 48;
 		i++;
-	}	
+	}
 	result = sign * result;
 	return (result);
 }
