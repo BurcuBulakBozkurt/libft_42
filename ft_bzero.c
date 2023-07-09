@@ -26,15 +26,20 @@ void	ft_bzero(void *s, size_t n)
 	}
 }
 
-/*int  main(void)
+/*
+int  main(void)
 {
-  char str[] = "blablabla";
-  char c[] = "blablabla";
-  printf("str before ft_bzero: %s\n", str);
+  char str[] = "buca";
+  char c[] = "buca";
+  write(1, str, 5);
+  write (1, "\n", 1);
   ft_bzero(str, 3);
-  printf("str after ft_bzero: %s\n", str);
-  printf("before bzero: %s\n", c);
+  write(1, str, 5);
+  write (1, "\n", 1);
+  write(1, c, 5);
+  write (1, "\n", 1);
   bzero(c, 3);
-  printf("after bzero: %s\n", c);
+  write(1, c, 5);
+  write (1, "\n", 1);
   return (0);
-}*/
+*/
