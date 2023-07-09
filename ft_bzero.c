@@ -29,8 +29,8 @@ void	ft_bzero(void *s, size_t n)
 /*
 int  main(void)
 {
-  char str[] = "buca";
-  char c[] = "buca";
+  char str[] = "hello";
+  char c[] = "hello";
   write(1, str, 5);
   write (1, "\n", 1);
   ft_bzero(str, 3);
