@@ -30,9 +30,9 @@ void	ft_bzero(void *s, size_t n)
 {
   char str[] = "blablabla";
   char c[] = "blablabla";
-  printf("str before ft_memset: %s\n", str);
+  printf("str before ft_bzero: %s\n", str);
   ft_bzero(str, 3);
-  printf("str after ft_memset: %s\n", str);
+  printf("str after ft_bzero: %s\n", str);
   printf("before bzero: %s\n", c);
   bzero(c, 3);
   printf("after bzero: %s\n", c);
