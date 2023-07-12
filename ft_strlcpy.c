@@ -14,12 +14,12 @@
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
-	size_t	srcsize;
+	size_t	len;
 	size_t	i;
 
 	srcsize = 0;
-	while (src[srcsize])
-		srcsize++;
+	while (src[len])
+		len++;
 	i = 0;
 	if (size != 0)
 	{
@@ -30,7 +30,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 		}
 		dst[i] = '\0';
 	}
-	return (srcsize);
+	return (len);
 }
 
 /*int main(void)
@@ -41,7 +41,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
     size_t len = ft_strlcpy(dest, src, sizeof(dest));
     
     printf("Copied string: %s\n", dest);
-    printf("Length of copied string: %zu\n", len);
+    printf("Length of copied string: %ld\n", len);
     
     return 0;
 }*/
